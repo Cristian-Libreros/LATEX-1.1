@@ -1,0 +1,127 @@
+\documentclass[journal]{IEEEtran}
+
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+
+   \graphicspath{{../pdf/}{../jpeg/}}
+ 
+
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+
+\title{Pseudocódigo en Pseint}
+
+
+\author{Cristian~Fernando~Libreros~Osorio.\\Universidad~del~Valle~sede~Zarzal,~Valle~del~Cauca,~Colombia.\\libreros.cristian@correounivalle.edu.co\\Programa:Algoritmia y programación\\Profesor:Paul Angarita Jimenez
+\thanks{M. Shell was with the Department
+of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta,
+GA, 30332 USA e-mail: (see http://www.michaelshell.org/contact.html).}
+\thanks{J. Doe and J. Doe are with Anonymous University.}
+\thanks{Manuscript received April 19, 2005; revised August 26, 2015.}}
+
+
+\maketitle
+
+
+\begin{abstract}
+This is a report based on the applied algorithmic and programming fixes, where we are going to learn about these fixes, how they work and various other things.
+\end{abstract}
+
+
+
+
+
+
+
+
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introducción}
+
+\IEEEPARstart{P}{seint} es un software libre educativo multiplataforma enfocado en los estudiantes que apenas están comenzando en el mundo de la programación.\\
+En esta oportunidad presentaré un pseudocódigo en Pseint con su diagrama de flujo, mostrando su funcionamiento óptimo y explicando brevemente lo que hace.
+
+
+
+
+ 
+\hfill Julio 28, 2020
+
+
+
+
+
+\section{Pseudocódigo}
+Para este informe decidí hacer un pseudocódigo cuyo objetivo o utilidad es elegir el número mayor entre 6 números que ingresemos al programa, para esto comenzamos escribiendo lo que el usuario pueda observar y que en este caso es un tipo de leyenda o expresión que dice “ingrese el primer valor” y así sucesivamente hasta que se ingresa el 6to valor.\\
+Después de las declaraciones seguimos con una serie de condicionales “si-entonces” donde especificamos que si un número es mayor que el resto entonces ese es el que debería de mostrar como resultado. Ese proceso lo repetimos según el número de valores que tenemos. Al realizarlo las 6 veces obtenemos que si ninguno es mayor entonces en nuestra pantalla se debe de proyectar que todos los números son iguales.\\
+
+Pseudocódigo corriendo:
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=5.5cm]{C:/Users/USUARIO/Pictures/Algoritmia/Ejemplode.jpeg}
+\caption{Ejemplo de arreglos unidimensionales.\\Este programa carga el arreglo sqr con los 10 espacios (del 0 al 9) y con los números del 1 al 10}
+\label{figure_sim}
+\end{figure}
+
+\subsection{Arreglos multidimensionales.}
+Es un tipo de dato que está compuesto por varias dimensiones, es decir que para hacer referencia a cada componente del arreglo es necesario utilizar n índices. El término dimensión hace referencia al número de índices utilizados para referirse a un elemento particular del arreglo.
+Ejemplos de la Figura 2 a la figura 5
+
+\begin{figure}[!]
+\centering
+\includegraphics[width=6.5cm]{C:/Users/USUARIO/Pictures/Algoritmia/Ejemplo2.1.jpeg}
+\caption{}
+\label{figure_sim}
+\end{figure}
+
+\begin{figure}[!]
+\centering
+\includegraphics[width=5.5cm]{C:/Users/USUARIO/Pictures/Algoritmia/Ejemplo2.2.jpeg}
+\caption{}
+\label{figure_sim}
+\end{figure}
+
+\begin{figure}[!]
+\centering
+\includegraphics[width=5.5cm]{C:/Users/USUARIO/Pictures/Algoritmia/Ejemplo2.3.jpeg}
+\caption{}
+\label{figure_sim}
+\end{figure}
+
+\begin{figure}[!]
+\centering
+\includegraphics[width=5.5cm]{C:/Users/USUARIO/Pictures/Algoritmia/Ejemplo2.jpeg}
+\caption{Ejemplo de arreglos multidimensionales.\\Este es un ejemplo de operaciones de llenado de dos matrices de orden 3x2.Las matrices se llenan automáticamente, la matriz A se llena con valores que van desde 0 hasta 9. La matriz B se llena con un acumulador que inicia desde 10 y va incrementando y almacenando su valor a razón de 3.A parte se utiliza.}
+\label{figure_sim}
+\end{figure}
+
+
+\section{Operaciones con arreglos}
+Las operaciones se pueden clasificar de la siguiente manera:\\
+Lectura: Esto consiste en leer un dato de un arreglo y asignar un valor a cada componente.\\
+Escritura: Es darle un valor a cada elemento del arreglo.\\
+Asignación: No es posible asignarle un valor a cada elemento.\\
+Actualización: En esta misma operación se encuentran inmersas las operaciones de eliminar, insertar y modificar datos. Para este tipo de operaciones se debe tener en cuenta si el arreglo está o no ordenado.
+
+\section{Ordenaciones por arreglos}
+Tener los arreglos ordenados es importante ya que podemos acceder fácilmente a un dato que esté en algún arreglo. Existen diferentes formas de ordenar los arreglos como los siguientes:\\
+\subsection{Selección directa:} Se selecciona el elemento más pequeño para colocarlo en el inicio y excluirlo de la lista.\\
+\subsection{Ordenación por burbuja:} Se llevan los elementos de menor valor a la izquierda del arreglo o los mayores a la derecha del mismo. La idea básica del algoritmo es comparar los pares adyacentes e intercambiarlos hasta que cada uno esté en su posición.\\
+Este método es uno de los más usados, pero es de los menos eficientes.\\
+
+\section{Conclusión}
+Los arreglos en algoritmia y programación no es un simple comando ya que tiene diversas formas de organizarlo, tiene diferentes operaciones y se divide en algunos tipos. Pensar que los arreglos son un simple comando puede suceder porque nos confiamos con denominación y no nos tomamos el trabajo de investigar mas.\\
+En este informe se concluyó que los arreglos son como un mini mundo, mas complejo de lo que esperaba y mas interesante.
+
+
+
+\end{document}
